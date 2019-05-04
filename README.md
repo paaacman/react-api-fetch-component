@@ -8,11 +8,11 @@ A react component to fetch data from your favorite API.
 
 ## Usage
 
-*Don't forget to see the `example` folder, who contain a complete example of this component, with user registration / login / logout example.*  
+*Don't forget to see the `example` folder, it contains a complete example of this component, with user registration / login / logout example.*  
   
 First, include the provider at the root of your app:  
   
-```
+```javascript
     import {FetchProvider} from "react-api-fetch-component";
     
     <FetchProvider
@@ -29,9 +29,9 @@ First, include the provider at the root of your app:
     </FetchProvider>
 ```
 
-Now, you can use the Fetch component where you want for making request:  
+Now, you can use the Fetch component where you want to make request:  
 
-```
+```javascript
     import {Fetch} from "react-api-fetch-component";
     
     <Fetch url={'/api/endpoint'} method={'GET'}>
